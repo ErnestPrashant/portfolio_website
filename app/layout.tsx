@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: [
     "Prashant Dubey",
     "Prashant D",
-    "abhishekg.com.np",
+    "https://prashantdubey.netlify.app/",
     "Prashant Dubey Portfolio",
     "Prashant Dubey Projects",
     "Prashant Dubey Skills",

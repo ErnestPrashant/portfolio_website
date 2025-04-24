@@ -16,7 +16,7 @@ const connectToDatabase = async () => {
   }
 
   try {
-    mongoose.connect(MONGODB_URI!, {
+    mongoose.connect(process.env.NEXT_PUBLIC_MONGODB_URI!, {
       dbName: "portfolio",
       bufferCommands: true,
     });

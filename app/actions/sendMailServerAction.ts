@@ -1,21 +1,23 @@
 "use server";
 
 import nodemailer from "nodemailer";
+import SMTPTransport from "nodemailer/lib/smtp-transport";
 
 async function sendEmail(fullname: string, email: string, message: string) {
   try {
     const transporter = nodemailer.createTransport({
-      host: process.env.NODEMAILER_HOST,
-      port: parseInt(process.env.NODEMAILER_PORT!),
+      host: process.env.NEXT_PUBLIC_NODEMAILER_HOST,
+      port: process.env.NEXT_PUBLIC_NODEMAILER_PORT,
+      secure:true,
       auth: {
-        user: process.env.NODEMAILER_USER,
-        pass: process.env.NODEMAILER_PASS,
-      },
-    });
+        user: process.env.NEXT_PUBLIC_NODEMAILER_USER,
+        pass: process.env.NEXT_PUBLIC_NODEMAILER_PASS,
+      } ,
+    }as SMTPTransport.Options );
 
     const mailOptions = {
-      from: process.env.USER_MAILER,
-      to: process.env.USER_TO,
+      from:  process.env.NEXT_PUBLIC_NODEMAILER_USER,
+      to: process.env.NEXT_PUBLIC_USER_TO,
       subject: `${fullname} sent you a message`,
       html: `
       <h1>Message from ${fullname}</h1>

@@ -12,7 +12,7 @@ console.log(\`My superpower is: \${superpower()}\`);
 `,
 
   skillsTools: `const mySkills = [
-  "HTML", "CSS", "JavaScript", "ReactJS", "Tailwind CSS", "NodeJS", "ExpressJS", "MongoDB", "Git", "GitHub",
+  "HTML", "CSS", "JavaScript", "ReactJS", "Tailwind CSS", "JAVA", "Spring Boot", "PLSQL", "Git", "GitHub",
    "Postman", "macOS", "Windows", "npm", "miro", "Notion"
 ];
 

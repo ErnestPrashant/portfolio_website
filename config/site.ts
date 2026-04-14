@@ -20,11 +20,10 @@ export const siteConfig = {
       description:
         "The EMI Management System is a full-stack web application that simplifies loan tracking and EMI calculations. It allows users to apply for loans, view amortization schedules, and record payment history. The system provides a dynamic dashboard for real-time loan and payment insights. Built using the MERN stack with seamless MongoDB integration for data persistence.",
       tags: [
-        "Node.js",
+        "Java",
+        "Spring Boot",
         "React",
         "Tailwind CSS",
-        "Express.js",
-        "MongoDB",
         "React Router",
       ],
       github: "https://github.com/ErnestPrashant/emi-management-system",

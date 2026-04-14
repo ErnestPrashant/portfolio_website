@@ -17,7 +17,7 @@ const AboutMePage = () => {
         </PageHeaderHeading>
         <PageHeaderDescription>
           I am a passionate Software Engineer with a knack for building
-          full-stack web applications using modern technologies like Node, Express, React and
+          full-stack web applications using modern technologies like Java, Spring Boot, React and
           Tailwind CSS. My journey in tech began with a curiosity for solving
           real-world problems through innovative solutions, which evolved into a
           love for crafting user-centric digital experiences.

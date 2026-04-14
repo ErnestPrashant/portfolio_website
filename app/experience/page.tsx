@@ -44,7 +44,7 @@ const ExperiencePage = () => {
             </svg>
           </span>
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            MERN Stack Developer · Tata Consultancy Services
+            Java, Spring Boot Backend Developer · Tata Consultancy Services
             <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300 ms-3">
               Latest
             </span>
@@ -53,7 +53,7 @@ const ExperiencePage = () => {
             Aug. 2023 - Present
           </time>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            Currently working as a MERN Stack Developer at Tata Consultancy Services,
+            Currently working as a Java Developer at Tata Consultancy Services,
             where I’m building and maintaining Backend Code and learning
             the ropes of modern web development.
           </p>

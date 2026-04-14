@@ -21,9 +21,9 @@ const IntroductionPage = async () => {
           A coder by day, problem-solver by night!
         </PageHeaderHeading>
         <PageHeaderDescription>
-          I am a dedicated Software Engineer specializing in full-stack
+          I am a dedicated Software Engineer specializing in backend
           application development. I enjoy crafting responsive web solutions
-          using modern technologies like React, Node and Tailwind CSS.
+          using modern technologies like Java, Spring Boot, PLSQL.
           {/* Currently, I am expanding my skills into mobile development with React
           Native and Expo, aiming to deliver comprehensive, user-centric
           software solutions. */}

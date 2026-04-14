@@ -9,7 +9,7 @@ export const siteConfig = {
     twitter: "https://x.com/ernestprashant",
     github: "https://github.com/ErnestPrashant/Portfolio_Website",
     githubProfile: "https://github.com/ErnestPrashant",
-    resume: "https://drive.google.com/file/d/1EssY6q3qHuzgjnQsHGKPTNkFTfoBngKT/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1l3csSIRUnqLA5C5L1Y2wu-mQUHZmehJ7/view?usp=drive_link",
     email: "mailto:erne57874@gmail.com",
     githubUsername: "ErnestPrashant",
   },
